@@ -9,7 +9,7 @@ const Navbar = () =>
     const currentPath = usePathname()
 
     return (
-        <nav className="bg-teal-800 flex justify-between items-center h-[70px] px-8 border-b-[3px] border-orange-500">
+        <nav className="bg-teal-800 flex justify-between items-center h-[70px] px-36 border-b-[3px] border-orange-500">
             <Link href='/'>
                 <h1 className="logo text-white text-2xl">
                     Acme <span className="text-orange-500">Web Design</span>
