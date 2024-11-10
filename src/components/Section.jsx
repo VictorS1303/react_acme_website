@@ -1,7 +1,7 @@
 const Section = ({children}) =>
 {
     return (
-        <section>
+        <section className="min-h-fit max-h-fit">
             {children}
         </section>
     )
